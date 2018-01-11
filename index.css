@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cristian's Portfolio</title>
+<style type="text/css">
+body {
+  display: grid;
+  grid-template-columns: 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw ;
+  grid-template-rows: 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw 4vw;
+  color: black;
+  background-color: gray;
+  margin: 20px;
+}
+
+header{
+  grid-area: 5/21/2/4;
+  background-color:white;
+}
+
+h1{
+  grid-area: 1/14/1/1;
+  text-align: center;
+  font-size: 60px;
+  font
+}
+
+h2{
+  text-align: center;
+}
+nav{
+  grid-area: 5 / 3 / 10 /-20;
+  margin-top: 15px;
+  padding: 10px;
+  border: 3px dotted #F6F6F6;
+  background-color: #DEDEDE;
+}
+
+nav > a{
+  display: block;
+  margin-top: 7px;
+  font: bold 13pt/24px sans-serif;
+  color: black;
+  font-size: 20px;
+  text-decoration:none;
+
+}
+
+nav > a:hover{
+  color: white;
+  text-decoration: none;
+  background-color: gray;
+}
+main {
+  grid-area: 10 / 17 / 5 / 6;
+  margin-right: -339px;
+  margin-top: 15px;
+  padding-top: 35px;
+  padding-left: 25px;
+  background-color: white;
+  border: 5px dotted slategray;
+}
+
+main > p {
+  font-size: 20px;
+}
+footer {
+  grid-area:11/22/11/3;
+  background-color: white;
+  border: 5px dotted slategray;
+}
+footer > a{
+  top-margin: 10px;
+  color:black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+
+}
+footer >a:hover {
+  background-color: gray;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+  <header>
+</main>
+
+<footer style="text-align: center;">
+<a href="http://validator.w3.org/check/referer">
+<strong> HTML </strong> Valid! </a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+<strong> CSS </strong> Valid! </a>
+</footer>
+<section>
+
+</body>
+</html>
+                                                              102,1         Bot
+
