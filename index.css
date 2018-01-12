@@ -16,10 +16,12 @@ h1{
   grid-area: 1/14/1/1;
   text-align: center;
   font-size: 60px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 h2{
   text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 nav{
   grid-area: 5 / 3 / 10 /-20;
@@ -53,6 +55,19 @@ main {
   background-color: salmon;
   border: 3px dotted orange;
 }
+.gallery img {
+	width: 150px;
+	padding: 4px;
+	filter:grayscale(100%);
+	transition: 1s;
+	border-radius: 4px;
+}
+.gallery img:hover{
+	box-shadow: 2px 2px rgba(0, 140,186, 0.5);
+	filter:grayscale(0);
+	transform: scale(1.1);
+}
+
 footer {
   grid-area:11/22/11/3;
   background-color: white;
