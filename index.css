@@ -16,7 +16,6 @@ h1{
   grid-area: 1/14/1/1;
   text-align: center;
   font-size: 60px;
-  font
 }
 
 h2{
@@ -41,7 +40,7 @@ nav > a{
 }
 
 nav > a:hover{
-  color: darksalmon;
+  color: white;
   text-decoration: none;
   background-color: crimson;
 }
@@ -53,10 +52,6 @@ main {
   padding-left: 25px;
   background-color: salmon;
   border: 3px dotted orange;
-}
-
-main > p {
-  font-size: 20px;
 }
 footer {
   grid-area:11/22/11/3;
@@ -75,23 +70,3 @@ footer >a:hover {
   background-color: darkred;
   color: white;
 }
-
-</style>
-</head>
-<body>
-
-  <header>
-</main>
-
-<footer style="text-align: center;">
-<a href="http://validator.w3.org/check/referer">
-<strong> HTML </strong> Valid! </a>
-<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
-<strong> CSS </strong> Valid! </a>
-</footer>
-<section>
-
-</body>
-</html>
-                                                              102,1         Bot
-
