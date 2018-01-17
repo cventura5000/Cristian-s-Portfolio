@@ -47,7 +47,7 @@ nav > a:hover{
   background-color: crimson;
 }
 main {
-  grid-area: 10 / 17 / 5 / 6;
+  grid-area: 15 / 17 / 5 / 6;
   margin-right: -339px;
   margin-top: 15px;
   padding-top: 35px;
@@ -69,7 +69,7 @@ main {
 }
 
 footer {
-  grid-area:11/22/11/3;
+  grid-area:25/22/16/6;
   background-color: white;
   border: 5px dotted slategray;
 }
